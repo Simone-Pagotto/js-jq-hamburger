@@ -1,7 +1,7 @@
 $('.header-right > a').click(function(){
-  $('.hamburger-menu').show(1000)
+  $('.hamburger-menu').addClass('active')
 })
 
 $('.hamburger-menu > a > i').click(function(){
-  $('.hamburger-menu').fadeOut(500)
+  $('.hamburger-menu').removeClass('active')
 })
